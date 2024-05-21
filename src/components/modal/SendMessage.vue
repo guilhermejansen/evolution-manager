@@ -148,7 +148,7 @@
 
 <script>
 import instanceController from "@/services/instanceController";
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 import { mergeDeep } from "@/helpers/deepMerge";
 
 const defaultMessage = (obj = {}) =>

@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 import statusMapper from "@/helpers/mappers/status";
 import copyToClipboard from "@/helpers/copyToClipboard";
 import instanceController from "@/services/instanceController";

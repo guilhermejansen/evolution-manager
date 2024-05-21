@@ -9,18 +9,19 @@
             width="100"
             class="mb-4"
           />
-          <h3 class="mt-5 mb-2">Evolution Manager</h3>
+          <h3 class="mt-5 mb-2">Atende Direito</h3>
           <p>
             {{ $t("about.description") }}
           </p>
-          <div
+          <!--<div
             class="d-flex gap-x-2 gap-y-1 align-center justify-center mt-5 flex-wrap"
           >
-            <v-btn
+            
+              <v-btn
               href="https://github.com/gabrielpastori1/evolution-manager"
               target="_blank"
               color="grey-darken-3"
-            >
+            > 
               <v-icon start>mdi-github</v-icon>
               GitHub
             </v-btn>
@@ -28,7 +29,7 @@
               <v-icon start>mdi-hand-coin</v-icon>
               {{ $t("about.contribute") }}
             </v-btn>
-          </div>
+          </div>-->
 
           <h3 class="mt-5 mb-2">{{ $t("about.dataProcess.title") }}</h3>
           <p v-html="$t('about.dataProcess.description')" />

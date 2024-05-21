@@ -9,7 +9,7 @@
         Evolution Doc
       </v-btn>
     </v-app-bar-title>
-    <v-btn :to="{ name: 'instances' }"> Instâncias </v-btn>
+    <v-btn :to="{ name: 'instances' }">Criar Instâncias </v-btn>
     <v-btn @click="toggleTheme" icon>
       <v-icon>mdi-{{ dark ? "white-balance-sunny" : "weather-night" }}</v-icon>
     </v-btn>
@@ -28,7 +28,7 @@
     />
     <v-list-item
       title="Documentação"
-      subtitle="Evolution-Manager"
+      subtitle="Atende-Direito-Manager"
     ></v-list-item>
     <v-divider></v-divider>
     <v-list-item
@@ -43,7 +43,7 @@
 
 <script>
 import { useTheme } from "vuetify";
-import { useDocStore } from "@/store/doc";
+import { useDocStore } from "@/services/store/doc";
 export default {
   name: "AppBar",
   data: () => ({

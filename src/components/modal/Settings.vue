@@ -32,11 +32,12 @@
       </v-card-text>
       <v-card-actions>
         <div class="d-flex flex-wrap justify-space-between w-100 align-center">
-          <v-btn size="small" text @click="showAbout">
+          <!--<v-btn size="small" text @click="showAbout">
             {{ $t("about.title") }}
-          </v-btn>
+          </v-btn>-->
           <div class="d-flex justify-end flex-grow-1 gap-1">
             <v-btn
+              :title="$t('logout')"
               v-if="!!AppStore.connection.host"
               icon
               class="ml-0"
@@ -44,18 +45,19 @@
               @click="logout"
               :disabled="loading"
             >
-              <v-icon>mdi-logout</v-icon>
+            <v-icon>mdi-logout</v-icon>
             </v-btn>
-            <!-- <v-btn
+            <v-btn
               v-if="AppStore.validConnection"
               class="ml-0"
               text
               @click="dialog = false"
               :disabled="loading"
+              :title="$t('connection.cancel')"
             >
-              Cancel
-            </v-btn> -->
-            <v-btn
+            {{ $t("connection.cancel") }}
+            </v-btn>
+        <!--  <v-btn
               v-if="AppStore.validConnection"
               class="ml-0"
               text
@@ -66,7 +68,9 @@
             >
               <v-icon>mdi-share-variant</v-icon>
             </v-btn>
+        -->
             <v-btn
+              :title="$t('connection.action')"
               color="success"
               class="ml-0"
               variant="tonal"
@@ -137,18 +141,18 @@
       </v-card-text>
     </v-card>
   </v-dialog>
-  <about-modal ref="about" />
-  <share-connection ref="share" />
+<!--  <about-modal ref="about" />
+  <share-connection ref="share" /> -->
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
-import AboutModal from "./About.vue";
-import ShareConnection from "./ShareConnection.vue";
+import { useAppStore } from "@/services/store/app";
+//import AboutModal from "./About.vue";
+//import ShareConnection from "./ShareConnection.vue";
 const BASE_URL = import.meta.env.BASE_URL;
 
 export default {
-  components: { AboutModal, ShareConnection },
+  components: { /*AboutModal, ShareConnection*/ },
   name: "SettingsModal",
   data: () => ({
     dialog: false,

@@ -39,12 +39,12 @@ export default {
   },
   about: {
     title: "About",
-    description: "Evolution Manager makes it easy to manage your APIs with an intuitive interface. It was created by independent developers, focusing on improving the user experience and administration of API functionalities.",
+    description: "Atende Direito Manager makes it easy to manage your APIs with an intuitive interface. It was created by independent developers, focusing on improving the user experience and administration of API functionalities.",
     contribute: "Contribute to the project",
     dataProcess: {
       title: "Data Processing",
       description: "Data processing and storage occur <b>locally</b> in your browser, without the use of a centralized backend. This reinforces security and privacy, keeping your confidential information protected.",
-      https: "Due to all processing being done in the browser, it is necessary to access the Evolution API server through a secure connection (HTTPS)."
+      https: "Due to all processing being done in the browser, it is necessary to access the Atende Direito server through a secure connection (HTTPS)."
     },
     version: "Version",
   },
@@ -64,6 +64,7 @@ export default {
     title: "Configure connection",
     action: "Connect",
     saved: "Connection saved | Connections saved",
+    cancel: "Cancel",
   },
   instanceTabs: {
     settings: "Settings",
@@ -74,7 +75,7 @@ export default {
     title: "Phone not connected",
     apiGenericError: "Could not load QR Code, if the error persists, restart the API and try again.",
     qr: "QR Code",
-    code: "Código",
+    code: "Cï¿½digo",
   },
   options: {
     title: "Behavior",

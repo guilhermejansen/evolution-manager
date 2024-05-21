@@ -40,14 +40,14 @@ export default {
   about: {
     title: "Sobre",
     description:
-      "O Evolution Manager facilita a gestão de suas APIs com uma interface intuitiva. Ele foi criado por desenvolvedores independentes, focando em melhorar a experiência do usuário e a administração das funcionalidades da API.",
+      "O Atende Direito Manager facilita a gestão de suas APIs com uma interface intuitiva. Ele foi criado por desenvolvedores independentes, focando em melhorar a experiência do usuário e a administração das funcionalidades da API.",
     contribute: "Contribua com o projeto",
     dataProcess: {
       title: "Processamento de dados",
       description:
         "O processamento e armazenamento de dados ocorre <b>localmente</b> no seu navegador, sem uso de um backend centralizado. Isso reforça a segurança e privacidade, mantendo suas informações confidenciais e protegidas.",
       https:
-        "Por conta de todo o processamento ser realizado no navegador, é necessário que o servidor da Evolution API seja acessado através de uma conexão segura (HTTPS).",
+        "Por conta de todo o processamento ser realizado no navegador, é necessário que o servidor do Atende Direito seja acessado através de uma conexão segura (HTTPS).",
     },
     version: "Versão",
   },
@@ -68,6 +68,7 @@ export default {
     title: "Configurar conexão",
     action: "Conectar",
     saved: "Conexão salva | Conexões salvas",
+    cancel: "Cancelar",
   },
   instanceTabs: {
     settings: "Configurações",

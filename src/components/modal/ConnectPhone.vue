@@ -106,7 +106,7 @@
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 import instanceController from "@/services/instanceController";
 
 export default {

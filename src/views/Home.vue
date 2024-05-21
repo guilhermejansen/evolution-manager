@@ -142,7 +142,7 @@
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 import CreateInstance from "@/components/modal/CreateInstance";
 import statusMapper from "@/helpers/mappers/status";
 import instanceController from "@/services/instanceController";

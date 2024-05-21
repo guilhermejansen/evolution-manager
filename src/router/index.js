@@ -21,7 +21,7 @@ const routes = [
 
     ],
   },
-  {
+{/*
     path: BASE_URL + 'doc',
     component: () => import('@/layouts/doc/Index.vue'),
     children: [
@@ -37,7 +37,7 @@ const routes = [
         component: () => import('@/views/Doc.vue'),
       },
     ]
-  },
+  */},
   {
     path: '/:pathMatch(.*)*',
     redirect: BASE_URL,

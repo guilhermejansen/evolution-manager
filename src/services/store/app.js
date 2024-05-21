@@ -49,7 +49,7 @@ export const useAppStore = defineStore('app', {
         })
 
         if (!apiResponse.data || !apiResponse.data.message || !apiResponse.data.message.includes('Evolution API')) {
-          throw new Error('Essa conexão não é uma instância da evolution-api')
+          throw new Error('Essa conexão não é uma instância do Atende Direito')
         }
 
         const { version } = apiResponse.data
@@ -111,7 +111,7 @@ export const useAppStore = defineStore('app', {
         })
 
         if (!apiResponse.data || !apiResponse.data.message || !apiResponse.data.message.includes('Evolution API')) {
-          throw new Error('Essa conexão não é uma instância da evolution-api')
+          throw new Error('Essa conexão não é uma instância do Atende Direito')
         }
 
         const { version } = apiResponse.data

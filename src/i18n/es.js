@@ -39,12 +39,12 @@ export default {
   },
   about: {
     title: "Acerca de",
-    description: "Evolution Manager facilita la gestión de sus API con una interfaz intuitiva. Fue creado por desarrolladores independientes, enfocándose en mejorar la experiencia del usuario y la administración de las funcionalidades API.",
+    description: "Atende Direito Manager facilita la gestión de sus API con una interfaz intuitiva. Fue creado por desarrolladores independientes, enfocándose en mejorar la experiencia del usuario y la administración de las funcionalidades API.",
     contribute: "Contribuir con proyecto",
     dataProcess: {
       title: "Procesamiento de datos",
       description: "El procesamiento y almacenamiento de datos se produce <b>localmente</b> en su navegador, sin el uso de un servidor centralizado. Esto refuerza la seguridad y privacidad, manteniendo protegida su información confidencial.",
-      https: "Debido a que todo el procesamiento se realiza en el navegador, es necesario acceder al servidor API de Evolution a través de una conexión segura (HTTPS)."
+      https: "Debido a que todo el procesamiento se realiza en el navegador, es necesario acceder al servidor Atende Direito a través de una conexión segura (HTTPS)."
     },
     version: "Version",
   },
@@ -64,6 +64,7 @@ export default {
     title: "Configurar conexión",
     action: "Conectar",
     saved: "Conexión guardada | Conexiones guardadas",
+    cancel: "Cancelar",
   },
   instanceTabs: {
     settings: "Ajustes",

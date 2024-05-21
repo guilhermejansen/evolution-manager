@@ -2,7 +2,8 @@
   <v-footer absolute app class="mt-10">
     <div class="d-flex flex-grow-1 flex-wrap gap-y-1 align-end">
       <div class="flex-shrink-0 d-flex gap-2 align-center">
-        <v-btn
+  <!--
+    <v-btn
         @click="about"
         variant="tonal"
           size="small"
@@ -21,6 +22,7 @@
           {{ $t("contribute.button") }}
         </v-btn>
         <p style="font-size: 12px" class="text-disabled">v{{ version }}</p>
+  -->
       </div>
       <v-spacer />
       <div class="d-flex gap-x-1">
@@ -37,11 +39,13 @@
           </v-icon>
           {{ link.title }}
         </v-btn>
+        
       </div>
     </div>
   </v-footer>
   <Contribute ref="contribute" />
   <About ref="about" />
+
 </template>
 
 <script>
@@ -55,22 +59,23 @@ export default {
     version,
     links: [
       {
-        title: "Discord",
-        url: "https://discord.gg/U66zvhV49B",
+        title: "APP Atende Direito",
+        icon: "mdi-information",
+        url: "https://app.atendedireito.com.br",
       },
-      {
-        title: "Postman",
-        url: "https://www.postman.com/agenciadgcode/workspace/evolution-api/overview",
-      },
-      {
-        title: "Evolution-Api",
-        icon: "mdi-github",
-        url: "https://github.com/EvolutionAPI/evolution-api",
-      },
+      //{
+      //  title: "Site",
+      //  url: "https://atendedireito.com.br",
+      //},
+      //{
+      //  title: "Evolution-Api",
+      //  icon: "mdi-github",
+      //  url: "https://github.com/EvolutionAPI/evolution-api",
+      //},
       {
         title: "Doc",
         icon: "mdi-book-open-page-variant",
-        url: "https://doc.evolution-api.com",
+        url: "https://evo.atendedireito.com.br/docs",
       },
     ],
   }),

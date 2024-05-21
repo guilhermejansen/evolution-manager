@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 import InstanceApiKey from "@/components/modal/InstanceApiKey.vue";
 import ConnectPhone from "@/components/modal/ConnectPhone.vue";
 import InstanceHeader from "@/components/instance/InstanceHeader.vue";

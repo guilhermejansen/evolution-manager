@@ -266,7 +266,7 @@
 <script>
 import ChatwootConfig from "@/components/modal/ChatwootConfig.vue";
 import instanceController from "@/services/instanceController";
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 const defaultObj = () => ({
   enabled: false,
   url: "",

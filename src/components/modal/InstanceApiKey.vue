@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 
 export default {
   name: "SettingsModal",

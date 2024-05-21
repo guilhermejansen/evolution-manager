@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 import copyToClipboard from "@/helpers/copyToClipboard";
 export default {
   name: "SettingsModal",

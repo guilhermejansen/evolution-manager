@@ -6,7 +6,7 @@
 
 // Plugins
 import { vuetify,i18n } from './vuetify'
-import pinia from '../store'
+import pinia from '../services/store'
 import router from '../router'
 
 import HelpTooltip from '@/components/global/HelpTooltip.vue'

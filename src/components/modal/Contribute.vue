@@ -1,7 +1,7 @@
 <template>
   <v-dialog v-model="dialog" max-width="350px" scrollable>
     <v-card>
-      <v-card-text>
+      <!--<v-card-text>
         <div class="d-flex flex-column align-center">
           <h4>{{$t('contribute.via')}} PIX</h4>
           <v-img
@@ -17,14 +17,14 @@
             <v-icon end size="small" v-else>mdi-check</v-icon>
           </v-chip>
         </div>
-      </v-card-text>
+      </v-card-text>-->
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn text @click="dialog = false" :disabled="loading"> {{ $t('close') }} </v-btn>
         <v-spacer></v-spacer>
       </v-card-actions>
     </v-card>
-  </v-dialog>
+  </v-dialog> 
 </template>
 
 <script>

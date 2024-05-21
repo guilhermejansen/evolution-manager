@@ -3,7 +3,7 @@
     <v-app-bar-title class="flex-shrink-0">
       <v-btn variant="text" @click="$router.push({ name: 'instances' })">
         <v-img src="@/assets/logo.png" height="24" width="24" class="mr-2" />
-        Evolution Manager
+        Atende Direito
       </v-btn>
     </v-app-bar-title>
     <v-icon v-if="AppStore.connecting" color="info">
@@ -62,7 +62,7 @@
 
 <script>
 import SettingsModal from "@/components/modal/Settings.vue";
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 import { useTheme } from "vuetify";
 
 export default {

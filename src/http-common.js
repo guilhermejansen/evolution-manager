@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/services/store/app";
 const appStore = useAppStore();
 
 appStore
