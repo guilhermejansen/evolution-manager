@@ -6,7 +6,7 @@
       </v-btn>
       <v-btn variant="text" @click="$router.push({ name: 'doc' })">
         <v-img src="@/assets/logo.png" height="24" width="24" class="mr-2" />
-        Evolution Doc
+        Atende Direito Doc
       </v-btn>
     </v-app-bar-title>
     <v-btn :to="{ name: 'instances' }">Criar Instâncias </v-btn>
